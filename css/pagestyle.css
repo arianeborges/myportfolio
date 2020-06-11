@@ -1,0 +1,42 @@
+body {
+    font-family: 'EB Garamond';
+    background-color: cornsilk;
+    /* font-size: 22px; */
+}
+
+#header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    /* background-color: aquamarine; */
+} 
+
+/* #menu{
+    background-color: darkmagenta;
+} */
+
+.btnm {
+    width: 367px;;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+}
+
+/* .active, .btn:hover {
+    background-color: rgb(202, 140, 136) ;
+    color: white;
+} */
+
+#footer {
+    padding: 10px;
+    text-align: center;
+    /* background: dodgerblue; */
+}
+
+
+#projects, #aboutme, #contact {
+    padding: 35px;
+}
