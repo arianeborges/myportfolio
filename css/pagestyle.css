@@ -1,10 +1,10 @@
 body {
+    padding-top: 20px;
     font-family: 'EB Garamond';
     background-color: cornsilk;
-    /* font-size: 22px; */
 }
 
-#header {
+.header {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -13,30 +13,27 @@ body {
     /* background-color: aquamarine; */
 } 
 
-/* #menu{
-    background-color: darkmagenta;
-} */
-
-.btnm {
-    width: 367px;;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    cursor: pointer; 
+.menu{
+    /* background-color: darkmagenta; */
+    padding: 35px;
 }
 
-/* .active, .btn:hover {
-    background-color: rgb(202, 140, 136) ;
-    color: white;
-} */
+.ptitle{
+    text-align: center; 
+    border-style: double;
+    border-radius: 10px;
+    border-color: #ff8c01;
+    padding: 5px;
+    font-weight: bolder;
+}
 
-#footer {
+.footer {
     padding: 10px;
     text-align: center;
     /* background: dodgerblue; */
 }
 
-
-#projects, #aboutme, #contact {
-    padding: 35px;
+#email{
+    color: #ff8c01;
+    text-decoration: none;
 }
